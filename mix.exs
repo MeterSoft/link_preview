@@ -63,12 +63,12 @@ defmodule LinkPreview.Mixfile do
   defp deps do
     [
       # required
-      {:floki, "~> 0.21.0"},
+      {:floki, "~> 0.30.0"},
       {:tesla, "~> 1.2.1"},
 
       # optional
       {:html_entities, "~> 0.4", optional: true},
-      {:mogrify, "~> 0.4.0", optional: true},
+      {:mogrify, "~> 0.8.0", optional: true},
       {:tempfile, "~> 0.1.0", optional: true},
 
       # testing/docs
